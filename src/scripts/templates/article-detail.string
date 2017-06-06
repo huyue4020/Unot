@@ -1,0 +1,19 @@
+<div class="tm-right-inner-container Article-Detail">
+	<h1 class="index-header">Article-Detail</h1>
+	<article>
+		<h2>标题</h2>
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nisi illum, soluta sint unde eaque quia delectus assumenda, similique sequi! Fugit eum debitis hic atque doloribus ullam, veniam cupiditate explicabo.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nisi illum, soluta sint unde eaque quia delectus assumenda, similique sequi! Fugit eum debitis hic atque doloribus ullam, veniam cupiditate explicabo.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nisi illum, soluta sint unde eaque quia delectus assumenda, similique sequi! Fugit eum debitis hic atque doloribus ullam, veniam cupiditate explicabo.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nisi illum, soluta sint unde eaque quia delectus assumenda, similique sequi! Fugit eum debitis hic atque doloribus ullam, veniam cupiditate explicabo.
+		</p>
+		<span class="collect">
+			<i class="iconfont icon-shoucang"></i>收藏
+			<a href="##" class="btn btn-warning back-btn">Back</a>
+		</span>
+
+	</article>
+	<footer>
+	</footer>
+</div>

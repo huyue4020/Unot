@@ -299,18 +299,43 @@ iframe { border: none; }
   margin-right: 20px;
 }
 
-.personal-box {
+.personal-box .headimg {
+  height: 100px;
   position: relative;
 }
 
-.personal-box img {
+.personal-box .headimg img {
   width: 100px;
-  height: 100px;
+  height: 100%;
   position: absolute;
   left: 50%;
   margin-left: -50px;
 }
 
-.personal-box .username {
-  margin-top: 100px;
+.articleDetail {
+  display: none;
+}
+
+small {
+  padding-left: 20px;
+}
+
+.editor {
+  display: none;
+}
+
+.editor #editor {
+  padding-bottom: 20px;
+}
+
+.editor .btn-publish {
+  width: 100%;
+  height: 54px;
+  position: relative;
+}
+
+.editor .btn-publish div {
+  position: absolute;
+  left: 50%;
+  margin-left: -41px;
 }

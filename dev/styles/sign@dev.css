@@ -311,3 +311,12 @@ iframe { border: none; }
 .alert {
   display: none;
 }
+
+#idcode {
+  font-size: 20px;
+}
+
+#idcode #ehong-code {
+  display: inline-block;
+  padding-right: 20px;
+}

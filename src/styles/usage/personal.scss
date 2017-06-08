@@ -5,21 +5,42 @@
     }
   }
 }
-.tm-right-inner-container{
-	article{
-		
+.personal-box{
+	.headimg{
+		height: 100px;
+		position: relative;
+		img{
+			width: 100px;
+			height:100%;
+			position:absolute;
+			left:50%;
+			margin-left: -50px;
+		}
 	}
 }
-.personal-box{
-	position: relative;
-	img{
-		width: 100px;
-		height: 100px;
-		position: absolute;
-		left: 50%;
-		margin-left: -50px;
+.articleDetail{
+	display:none;
+}
+small{
+	padding-left: 20px;
+}
+.articleList{
+	// display:none;
+}
+.editor{
+	display:none;
+	#editor{
+		padding-bottom: 20px;
 	}
-	.username{
-		margin-top: 100px;
+	.btn-publish{
+		width:100%;
+		height:54px;
+		position:relative;
+		div{
+			position:absolute;
+			left:50%;
+			margin-left:-41px;
+		}
+
 	}
 }

@@ -9317,7 +9317,7 @@ var jQuery =__context.____MODULES['107fbe9555bfc88ec5cab524c790fe34'];
 
 ;(function(__context){
     var module = {
-        id : "b9cb94ec77715be632985527a1c1fae6" ,
+        id : "21cc9bc54e196f5c34bff404d354e904" ,
         filename : "personal.js" ,
         exports : {}
     };
@@ -9333,9 +9333,28 @@ var body = document.body;
 body.innerHTML = str_index + body.innerHTML;
 
 window.onload = function(){
-	
+	$(".more-btn").on("click",function(){
+		$(".articleList").hide();
+		$(".editor").hide();
+		$(".articleDetail").show();
+	});
+	$(".back-btn").on("click",function(){
+		$(".articleList").show();
+		$(".editor").hide();
+		$(".articleDetail").hide();
+	});
+	$(".write").on("click",function(){
+		$(".articleList").hide();
+		$(".articleDetail").hide();
+		$(".editor").show();
+	});
+	$(".screen span").not('.write').on("click",function(){
+		$(".articleDetail").hide();
+		$(".editor").hide();
+		$(".articleList").show();
+	});
 };
 
     })( module.exports , module , __context );
-    __context.____MODULES[ "b9cb94ec77715be632985527a1c1fae6" ] = module.exports;
+    __context.____MODULES[ "21cc9bc54e196f5c34bff404d354e904" ] = module.exports;
 })(this);

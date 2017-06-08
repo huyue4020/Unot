@@ -312,3 +312,7 @@ iframe { border: none; }
 .Article-Detail {
   display: none;
 }
+
+small {
+  padding-left: 20px;
+}
